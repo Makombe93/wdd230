@@ -1,0 +1,23 @@
+@media screen and (min-width: 600px) {
+    nav{
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+        padding: 20px
+    }
+
+    main{
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+    }
+}
