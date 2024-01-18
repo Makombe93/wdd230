@@ -1,0 +1,32 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+}
+
+footer {
+    background-color: #2ecc71;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Add more styles as needed based on your design */
+

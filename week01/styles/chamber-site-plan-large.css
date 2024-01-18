@@ -1,0 +1,30 @@
+@media screen and (min-width: 768px) {
+    /* Adjust styles for larger screens here */
+    body {
+        font-size: 18px; /* Adjust the base font size for larger screens */
+        grid-template-columns: 1;
+        padding: 35px;
+
+    }
+
+    header {
+        padding: 30px; /* Increase padding for larger screens */
+    }
+    h1{
+        text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    h2{
+        justify-content: center;
+        display: grid;
+    }
+
+    section {
+        margin: 30px 0; /* Increase margin for larger screens */
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+    }
+}
