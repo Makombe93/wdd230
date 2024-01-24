@@ -85,10 +85,15 @@ nav ul.active {
     margin: 5px 0;
 }
 
+body.dark-mode-btn{
+    background-color: black;
+    color: white;
+}
+
 #dark-mode-btn{
+    margin-left: 100px;
     background-color: #3498db;
     color: navy;
-    margin-left: 100px;
 }
 
 
