@@ -40,30 +40,33 @@ main{
     max-width: 100%;
     margin: 0 auto;
 }
-
 nav {
     background-color: #3498db;
     padding: 10px;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
 }
+
 
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex; 
+    align-items: center;
 }
 
 nav li {
-    display: inline-block;
     margin: 0 10px;
 }
 
 nav a {
     text-decoration: none;
     color: navy;
-    padding: 8px 16px;
     border: 2px solid navy;
     border-radius: 5px;
+    padding: 8px 16px;
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -71,4 +74,22 @@ nav a:hover {
     background-color: #fff;
     color: navy;
 }
+
+#menu-btn:hover{
+    background-color: #fff;
+    color: navy;
+}
+
+nav ul.active {
+    display: flex;
+    margin: 5px 0;
+}
+
+#dark-mode-btn{
+    background-color: #3498db;
+    color: navy;
+    margin-left: 100px;
+}
+
+
 

@@ -1,7 +1,13 @@
-document.getElementById('menu-btn').addEventListener('click', function () {
-    document.querySelector('nav ul').classList.toggle('show');
-});
+document.addEventListener('DOMContentLoaded', function () {
+    const menuBtn = document.getElementById('menu-btn');
+    const navList = document.querySelector('nav ul');
 
-document.getElementById('dark-mode-btn').addEventListener('click', function () {
-    document.body.classList.toggle('dark-mode');
+    menuBtn.addEventListener('click', function () {
+        navList.classList.toggle('active');
+        menuBtn.classList.toggle('active'); 
+    });
+
+    document.getElementById('dark-mode-btn').addEventListener('click', function () {
+        document.body.classList.toggle('dark-mode');
+    });
 });
