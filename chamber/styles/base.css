@@ -1,0 +1,210 @@
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 35px; 
+    background-color: transparent;
+    color: #000080;
+    position: relative;
+}
+
+.logo-container img{
+    width: 80px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.header-content span{
+    font-size: 40px;
+    margin-left: 10px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+header::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 2px;
+    background-color: navy;
+}
+
+
+.menu{
+    display: block;
+    cursor: pointer;
+    border: none;
+    color: #7cfc00;
+    background-color: transparent;
+    text-align: center;
+    font-size: 2rem;
+    
+}
+
+.menu::before {
+	content: "☰";
+}
+
+.menu.open::before {
+	content: "❎";
+}
+
+nav{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: orangered;
+    color: navy;
+    margin: 5px 0;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+
+    
+}
+
+.navmenu  {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+}
+
+.navmenu li {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    margin: 0;
+    font-size: 1.5rem;
+
+}
+
+.navmenu a {
+    display: none;
+    text-decoration: none;
+    color: navy;
+    padding: 1rem;
+    text-align: center;
+}
+
+.navmenu a:hover {
+    background-color: #7cfc00;
+    color: navy;
+}
+
+.open a{
+    display: block;
+}
+
+.menu:checked + .navmenu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+
+.hero img{
+    width: 100%;
+}
+
+.cta-container {
+    max-width: 800px; 
+    margin: 0 auto;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px orangered; 
+    padding: 10px; 
+}
+
+.cta {
+    color: navy;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px 2px orangered;
+}
+
+
+.cta button {
+    background-color: rgb(124, 252, 0, 0.7);
+    border: none;
+    color: navy;
+
+}
+
+
+#events-heading{
+    text-align: center;
+    color: navy;
+    margin-top: 40px;
+}
+
+.events-container{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.current-events-container{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+h2{
+    margin-top: 80px;
+}
+
+.current-events-container:hover{
+    box-shadow: 4px 4px 6px #7cfc00;
+}
+
+
+.weather-card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 20px;
+    background-image: url('../images/weather.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 60%;
+   margin-left: 20%;
+    
+}
+
+.weather-info {
+    font-size: 16px;
+    color: #333;
+}
+
+
+footer{
+    background-color: #7cfc00;
+    text-align: center;
+    padding: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+.sections-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ad-container {
+    
+    border: transparent; 
+    border-radius: 90px;
+    padding: 10px; 
+    margin: 50px; 
+    margin-top: 30px;
+    box-shadow: 5px 5px 9px orangered;
+    height: 300px;
+}
