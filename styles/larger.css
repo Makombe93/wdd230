@@ -6,14 +6,42 @@
         padding: 20px
     }
 
+    .header-content{
+        display: flex;
+        margin-top: 20px;
+    }
+
+    span{
+        font-size: 2rem;
+    }
+
     main{
         max-width: 800px;
         margin: 0 auto;
     }
 
+    .activities-container{
+        display: flex;
+        width: 100%;
+    }
+
     .card{
         display: grid;
         gap: 20px;
+    }
+
+    #learning{
+        flex: 2;
+        width: 66.6%;
+    }
+
+    #info{
+        flex: 1;
+        width: 33.3;
+    }
+
+    #dark-mode-btn{
+       margin-left: auto;
     }
 
     
@@ -26,6 +54,8 @@
     #menu-btn{
         display: none;
     }
+
+    
 }
 
 @media screen and (max-width: 600px) {

@@ -1,7 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: rgb(246, 249, 250);
     color: navy;
+    margin: 0 50px;
 }
 
 .header-content {
@@ -97,4 +103,34 @@ body.dark-mode-btn{
 }
 
 
+footer{
+    background-color: #3498db;
+    text-align: center;
+    font-size: 1rem;
+}
 
+#h2-bg{
+    height: 30px}
+
+.activities-container {
+    margin-top: 20px; 
+}
+
+.card {
+    border: 2px solid gray;
+    background-color: #f0f0f0; 
+    border-radius: 8px; 
+    padding: 10px;
+    width: 50% 40%;
+    margin: 30px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    background-color: #3498db;
+    margin-bottom: 10px;
+    text-align: center;
+}
