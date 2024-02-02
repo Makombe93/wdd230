@@ -205,7 +205,7 @@ footer{
 .sections-container {
     display: block;
     width: 100%;
-    color: orangered;
+    color: navy;
    
 }
 
@@ -223,6 +223,6 @@ footer{
 
 #spotlights{
     text-align: center;
-    color: orangered;
+    color: navy;
     font-weight: bold;
 }

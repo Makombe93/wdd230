@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const menuBtn = document.getElementById('menu-btn');
-    const navList = document.querySelector('nav ul');
+    const menuBtn = document.querySelector('.menu');
+    const navList = document.querySelector('.navmenu');
 
     menuBtn.addEventListener('click', function () {
         navList.classList.toggle('active');
-        menuBtn.classList.toggle('active'); 
+        menuBtn.classList.toggle('active');
     });
 
     document.getElementById('dark-mode-btn').addEventListener('click', function () {

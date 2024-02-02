@@ -1,10 +1,5 @@
 @media screen and (min-width: 600px) {
-    nav{
-        display: flex;
-        justify-content: space-around;
-        margin: auto;
-        padding: 20px
-    }
+   
 
     .header-content{
         display: flex;
@@ -16,8 +11,7 @@
     }
 
     main{
-        max-width: 800px;
-        margin: 0 auto;
+        display: block;
     }
 
     .activities-container{
@@ -51,62 +45,47 @@
         background-color: #3498db;
     }
 
-    #menu-btn{
+    .menu{
         display: none;
     }
 
-    
-}
-
-@media screen and (max-width: 600px) {
-    #menu-btn {
-        display: block;
+    nav{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         background-color: #3498db;
         color: navy;
-        font-size: 50px;
-        border: none;
-        cursor: pointer;
-    }
-
-    nav {
-        display: flex;
-        justify-content: space-around;
-        margin: auto;
-        padding: 20px;
+        margin: 5px 0;
+        
     }
     
-    nav ul {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        width: 100%;
-        background-color: #3498db;
+    .navmenu {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex; 
+        align-items: center;
+        justify-content: center; 
     }
-
-    nav li {
+    
+    .navmenu li {
+        display: inline-block;
+        width: 25%;
         text-align: center;
-        margin: 15px 0;
-    }
-
-    #menu-btn.active + nav ul {
-        display: flex;
-    }
-
-    #menu-btn::before {
-        content: "☰";
+        margin: 0;
+        font-size: 1.5rem;
+    
     }
     
-    #menu-btn.active::before {
-        content: "❎";
+    .navmenu a {
+        display: block;
+        text-decoration: none;
+        color: navy;
+        padding: 15px;
     }
-
-    main {
-        max-width: 800px;
-        margin: 0 auto;
-        padding-top: 60px;
+    
+    .navmenu a:hover {
+        background-color: white;
+        color: navy;
     }
 }
 
-
+   
