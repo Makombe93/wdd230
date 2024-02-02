@@ -37,20 +37,6 @@ main {
 }
 
 
-#dark-mode-btn {
-    text-decoration: none;
-    color: navy;
-    border: 2px solid navy;
-    border-radius: 5px;
-    padding: 8px 16px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-body.dark-mode-btn #dark-mode-btn {
-    background-color: #fff;
-    color: navy;
-    margin-left: 100px;
-}
 
 
 
@@ -93,6 +79,7 @@ h2 {
     font-size: 2rem;
     margin-left: 45%;
     display: block; 
+    
 }
 
 .menu::before {
@@ -101,6 +88,7 @@ h2 {
 
 .menu.active::before {
     content: "❎";
+    
 }
 
 nav {
@@ -140,6 +128,10 @@ nav {
     font-size: 1.5rem;
 }
 
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
 
 
 
