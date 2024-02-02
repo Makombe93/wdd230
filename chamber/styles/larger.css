@@ -42,14 +42,27 @@
     }
 
     .current-events-container{
-        padding: 30px;
+        padding: 20px;
         border: 2px solid #7cfc00;
         border-radius: 40px;
         height: 300%;
         margin-bottom: 50px;
         color: navy;
         height: auto;
+        margin-left: 50px;
     }
+
+    .events-container{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .header-content{
+        margin-left: 100px;
+    }
+
+    
 
 }
 

@@ -1,3 +1,7 @@
+body{
+    margin: 10px;
+}
+
 .header-content {
     display: flex;
     align-items: center;
@@ -16,7 +20,7 @@
 }
 
 .header-content span{
-    font-size: 40px;
+    font-size: 5rem;
     margin-left: 10px;
     text-shadow: 2px 2px 4px #000;
 }
@@ -42,6 +46,7 @@ header::after {
     background-color: transparent;
     text-align: center;
     font-size: 2rem;
+    margin-left: 45%;
     
 }
 
@@ -49,7 +54,7 @@ header::after {
 	content: "☰";
 }
 
-.menu.open::before {
+.menu.active::before {
 	content: "❎";
 }
 
@@ -69,19 +74,18 @@ nav{
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex; 
     align-items: center;
     justify-content: center; 
 }
 
-.navmenu li {
-    display: inline-block;
+/* .navmenu li {
+    display: block;
     width: 25%;
     text-align: center;
     margin: 0;
     font-size: 1.5rem;
 
-}
+}  */
 
 .navmenu a {
     display: none;
@@ -96,16 +100,17 @@ nav{
     color: navy;
 }
 
-.open a{
+.active li a{
     display: block;
+    font-size: 1.5rem;
 }
 
-.menu:checked + .navmenu {
+/* ul.menu.active {
     display: flex;
     flex-direction: column;
     width: 100%;
     text-align: center;
-}
+} */
 
 
 .hero img{
@@ -144,16 +149,20 @@ nav{
 }
 
 .events-container{
-    width: 100%;
+    width: 80%;
     text-align: center;
-    display: flex;
-    justify-content: space-between;
+    margin-left: 30px;
+    color: navy;
+    margin-bottom: 30px;
 }
 
 .current-events-container{
     display:flex;
     flex-direction: column;
     width: 100%;
+    padding: 20px;
+    border: 1px solid rgb(124, 252, 0, o.7);
+    border-radius: 10px;
 
 }
 
@@ -169,7 +178,7 @@ h2{
 .weather-card {
     background-color: #f0f0f0;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 40px;
     background-image: url('../images/weather.jpg'); 
     background-size: cover; 
     background-position: center; 
@@ -194,17 +203,26 @@ footer{
 }
 
 .sections-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: block;
+    width: 100%;
+    color: orangered;
+   
 }
 
 .ad-container {
     
     border: transparent; 
-    border-radius: 90px;
-    padding: 10px; 
+    border-radius: 20px;
+    padding: 30px; 
     margin: 50px; 
     margin-top: 30px;
-    box-shadow: 5px 5px 9px orangered;
-    height: 300px;
+    box-shadow: 5px 5px 9px rgb(255, 69, 0, 0.6);
+    height: auto;
+    width: 80%;
+}
+
+#spotlights{
+    text-align: center;
+    color: orangered;
+    font-weight: bold;
 }
