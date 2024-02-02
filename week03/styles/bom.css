@@ -36,7 +36,10 @@ button {
 
 .delete {
 	width: fit-content;
+	cursor: pointer;
+	margin-left: 50px;
 }
+
 
 .input {
 	display: flex;
