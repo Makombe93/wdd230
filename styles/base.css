@@ -13,8 +13,8 @@ body {
 .header-content {
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    justify-content: space-around;
+    align-items: center;
     margin-bottom: 5px;
 }
 
@@ -29,6 +29,7 @@ button#dark-moode{
     margin-left: 30px;
     background-color: #3498db;
     color: navy;
+    margin-left: auto;
 }
 
 
