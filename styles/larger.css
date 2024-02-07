@@ -6,9 +6,6 @@
         margin-top: 20px;
     }
 
-    span{
-        font-size: 2rem;
-    }
 
     main{
         display: block;
@@ -41,6 +38,7 @@
         display: flex;
         justify-content: center;
         background-color: #3498db;
+        font-size: 22px;
     }
 
     .menu{

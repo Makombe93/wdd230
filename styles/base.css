@@ -24,7 +24,7 @@ body {
     text-shadow: 3px 3px 5px #3498db;
 }
 
-button#dark-moode{
+button#dark-mode{
     border: none;
     margin-left: 30px;
     background-color: #3498db;
@@ -49,15 +49,10 @@ main {
     margin: 10px;
 }
 
-span{
-    font-size: 30px;
-}
-
-
 footer {
     background-color: #3498db;
     text-align: center;
-    font-size: 30px;
+    font-size: 16px;
     display: flex;
     flex-direction: column;
 }
@@ -81,6 +76,10 @@ footer {
     font-size: 20px;
     box-shadow: 8px 8px 8px 10px gray;
     text-align: center;
+}
+
+#weather-info{
+    margin: 20px ;
 }
 
 .card {
