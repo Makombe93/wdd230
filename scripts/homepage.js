@@ -12,3 +12,12 @@ document.addEventListener('DOMContentLoaded', function () {
         document.body.classList.toggle('dark-mode');
     });
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    let visitCount = localStorage.getItem('visitCount') || 0;
+    document.getElementById('count').innerText = visitCount;
+
+    
+    visitCount++;
+    localStorage.setItem('visitCount', visitCount);
+});

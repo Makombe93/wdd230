@@ -18,9 +18,17 @@ body {
     margin-bottom: 5px;
 }
 
-span {
-    font-size: 20px;
+.pageTitle {
+    font-size: 50px;
     margin-left: 10px;
+    text-shadow: 3px 3px 5px #3498db;
+}
+
+button#dark-moode{
+    border: none;
+    margin-left: 30px;
+    background-color: #3498db;
+    color: navy;
 }
 
 
@@ -28,22 +36,29 @@ h3, h1 {
     margin: 0;
     padding: 0;
 }
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
 
 main {
     max-width: 100%;
     margin: 0 auto;
-    max-width: 800px;
     padding-top: 60px;
+    margin: 10px;
 }
 
-
-
+span{
+    font-size: 30px;
+}
 
 
 footer {
     background-color: #3498db;
     text-align: center;
-    font-size: 1rem;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 #h2-bg {
@@ -52,6 +67,19 @@ footer {
 
 .activities-container {
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#learning{
+    
+    box-shadow: 8px 8px 8px 10px gray;
+}
+
+#info{
+    font-size: 20px;
+    box-shadow: 8px 8px 8px 10px gray;
+    text-align: center;
 }
 
 .card {
@@ -67,6 +95,7 @@ h2 {
     background-color: #3498db;
     margin-bottom: 10px;
     text-align: center;
+    font-size: 30px;
 }
 
 
@@ -131,6 +160,32 @@ body.dark-mode {
     background-color: black;
     color: white;
 }
+
+.hero-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 10%;
+    left: 250px;
+    transform: translate(-50%, -50%);
+    color: #3498db;
+    text-shadow: 5px 3px 3px navy;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.7);
+    backdrop-filter: blur(20px);
+    font-family: cursive;
+    
+   
+}
+
+iframe{
+    width: 100%;
+}
+
 
 
 

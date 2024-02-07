@@ -14,28 +14,26 @@
         display: block;
     }
 
-    .activities-container{
+    .activities-container {
+        margin-top: 20px;
         display: flex;
-        width: 100%;
+        flex-direction: row;
     }
-
-    .card{
-        display: grid;
-        gap: 20px;
-    }
-
+    
     #learning{
         flex: 2;
-        width: 66.6%;
+        box-shadow: 8px 8px 8px 10px gray;
     }
-
+    
     #info{
         flex: 1;
-        width: 33.3%;
+        font-size: 20px;
+        box-shadow: 8px 8px 8px 10px gray;
+        text-align: center;
     }
 
-    #dark-mode-btn{
-       margin-left: auto;
+    .dark-mode-btn{
+       margin-left: 60px;
     }
 
     
