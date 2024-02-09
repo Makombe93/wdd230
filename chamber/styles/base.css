@@ -4,37 +4,22 @@ body{
 
 .header-content {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
-    padding: 35px; 
-    background-color: transparent;
-    color: #000080;
-    position: relative;
+    flex-direction: column;
 }
 
 .logo-container img{
-    width: 80px;
+    width: 50px;
     height: auto;
     vertical-align: middle;
 }
 
 .header-content span{
-    font-size: 5rem;
-    margin-left: 10px;
+    font-size: 2rem;
     text-shadow: 2px 2px 4px #000;
 }
 
-header::after {
-    content: '';
+.chamber-name{
     display: block;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80%;
-    height: 2px;
-    background-color: navy;
 }
 
 
@@ -296,23 +281,6 @@ footer{
 }
 
 
-
-main {
-    display: grid;
-    grid-template-areas: 
-        'page-visits image-column'
-        'statistics image-column'
-        'demographics image-column'
-        'demographics ads';
-    grid-template-rows: 1fr auto auto; 
-    grid-template-columns: 2fr 3fr;
-    grid-gap: 20px; 
-    height:auto;
-    margin: 30px;
-    font-size: 15px;
-    padding: 20px;
-}
-
 .statistics,.image-column,.lsk-facts,.ads{
     color: navy;
 }
@@ -350,16 +318,14 @@ main {
 
 .image-column {
     grid-area: image-column;
-    display: grid;
-    grid-template-rows: repeat(4, 1fr); 
-    grid-template-columns: repeat(2, 1fr); 
-    grid-gap: 10px; 
+    display: flex;
+    flex-direction: column;
     background-color: rgb(0, 0, 128, 0.2);
 }
 
 .image-column img {
     width: 90%; 
-    height: 200px;
+    height: auto;
     padding: 20px;
     transition: transform 0.3s ease;
 }   
@@ -370,8 +336,8 @@ main {
 }
 
 .demographics ul {
-    column-count: 2; 
-    column-gap: 20px; 
+    column-count: 1; 
+    
 }
 
 
@@ -392,11 +358,65 @@ main {
 
 .advert-container{
     grid-area: ads;
-    display: grid;
-    grid-template-rows: repeat(1, 1fr); 
-    grid-template-columns: repeat(3, 1fr); 
-    grid-gap: 5px; 
-    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+
+
+.container {
+    width: 90%; 
+    margin: 0 auto; 
+}
+
+header, nav, .page-visits, .statistics, .demographics, .ads, footer {
+    width: 100%; 
+    margin-bottom: 20px; 
+}
+
+.logo-container {
+    text-align: center; 
+}
+
+
+.advert-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+
+.advert-container img,
+.advert-container video {
+    width: 90%;
+    height: auto;
+}
+
+
+.footer-top {
+    padding: 20px 0; 
+}
+
+.footer-top .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.footer-top .container .row {
+    flex-direction: column; 
+    align-items: center;
+}
+
+.footer-top .container .row .col-md-4 {
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+footer{
+    height: auto;
 }
 
 

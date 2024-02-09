@@ -2,6 +2,7 @@
     .menu{
         display: none;
     }
+    
 
     nav{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -10,6 +11,46 @@
         margin: 5px 0;
         
     }
+
+    .header-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        padding: 35px; 
+        background-color: transparent;
+        color: #000080;
+        position: relative;
+    }
+    
+    .logo-container img{
+        width: 80px;
+        height: auto;
+        vertical-align: middle;
+    }
+    
+    .header-content span{
+        font-size: 5rem;
+        margin-left: 10px;
+        text-shadow: 2px 2px 4px #000;
+    }
+
+    .chamber-name{
+        display: inline;
+    }
+    
+    header::after {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        height: 2px;
+        background-color: navy;
+    }
+    
     
     .navmenu {
         list-style: none;
@@ -60,18 +101,83 @@
     }
 
     .header-content{
-        margin-left: 100px;
+        margin-left: 10px;
     }
-
-
-    /* .container {
-        grid-template-columns: 1fr; 
-    } */
 
     .main-area {
         margin-top: 20px; 
     }
+
+    main {
+        display: grid;
+        grid-template-areas: 
+            'page-visits image-column'
+            'statistics image-column'
+            'demographics image-column'
+            'demographics ads';
+        grid-template-rows: 1fr auto auto; 
+        grid-template-columns: 2fr 3fr;
+        grid-gap: 20px; 
+        height:auto;
+        margin: 10px;
+        font-size: 15px;
+        padding: 20px;
+        
+    }
+
+    .image-column {
+        grid-area: image-column;
+        display: grid;
+        grid-template-rows: repeat(4, 1fr); 
+        grid-template-columns: repeat(2, 1fr); 
+        grid-gap: 10px; 
+        background-color: rgb(0, 0, 128, 0.2);
+        width: 100%;
+    }
+    
+    .image-column img {
+        width: 90%; 
+        height: 250px;
+        padding: 20px;
+        transition: transform 0.3s ease;
+    }   
+
+    .demographics ul {
+        column-count: 2; 
+        column-gap: 20px; 
+    }
+    
+    
+    .demographics ul li {
+        margin-bottom: 10px; 
+    }
+
+    .advert-container{
+        grid-area: ads;
+        display: grid;
+        grid-template-rows: repeat(1, 1fr); 
+        grid-template-columns: repeat(3, 1fr); 
+        grid-gap: 5px; 
+        padding: 4px;
+    }
+    
+    .ads{
+        border: 3px solid navy;
+        width: 100%;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+
+    .demographics, .statistics, .page-visits{
+        padding-right: 20px;
+    }
+
+    .page-visits, .statistics, .demographics, .ads{
+        width: 90%; 
+        
+    }
 }
+
 
     
 
