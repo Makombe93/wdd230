@@ -309,11 +309,12 @@ footer{
 }
 
 .page-visits{
-    font-size: 30px;
+    font-size: 4rem;
     font-weight: bold;
     color: orangered;
     border: 3px dotted navy;
     text-align: center;
+    padding-top: 80px;
 }
 
 .image-column {
