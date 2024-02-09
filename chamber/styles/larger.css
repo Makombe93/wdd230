@@ -63,9 +63,19 @@
         margin-left: 100px;
     }
 
+
+    /* .container {
+        grid-template-columns: 1fr; 
+    } */
+
+    .main-area {
+        margin-top: 20px; 
+    }
+}
+
     
 
-}
+
 
 
 

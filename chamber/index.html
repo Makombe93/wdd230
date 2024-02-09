@@ -18,7 +18,7 @@
 <body>
     <header class="header-content">
        <div class="logo-container">
-        <img src="images/logo.png" alt="Lusaka Chamber of Commerce logo">
+        <img src="images/logo.webp" alt="Lusaka Chamber of Commerce logo">
         <span class="chamber-name">Lusaka Chamber of Commerce</span>
        </div>
         
@@ -36,7 +36,7 @@
     </nav>
     <main>
         <section class="hero">
-            <img src="images/men-at-work.jpg" alt="Hero Image">
+            <img src="images/men-at-work.webp" alt="Hero Image">
         </section>
 
         <section class="cta-container">
@@ -66,14 +66,75 @@
             </section>
         </section>
         <section class="weather-card">
-            <h2>Weather</h2>
-            <div class="weather-info">
-                <!-- Weather data will be displayed here -->
+            <h2>Lusaka Forecast</h2>
+            <div class="forecast-container">
+
+                <div class="forecast">
+                    <div class="day">MON</div>
+                    <div class="weather-icon">
+                    <img src="images/2682834_cloud_day_forecast_rain_rainy_icon-removebg-preview.png" alt="Light showers while sunny" width="30" height="30">
+                    </div>
+                    <div class="temperature">29°C</div>
+                    <div class="humidity-icon">
+                        <img src="images/2682807_drop_high_humidity_percentage_precipitation_icon-removebg-preview.png" alt="Humid icon" width="20" height="20">
+                        <span>50%</span>
+                    </div>
+                </div>
+
+                <div class="forecast">
+                    <div class="day">TUE</div>
+                    <div class="weather-icon">
+                    <img src="images/2682834_cloud_day_forecast_rain_rainy_icon-removebg-preview.png" alt="Light showers while sunny" width="30" height="30">
+                    </div>
+                    <div class="temperature">30°C</div>
+                    <div class="humidity-icon">
+                        <img src="images/2682807_drop_high_humidity_percentage_precipitation_icon-removebg-preview.png" alt="Humid icon" width="20" height="20">
+                        <span>48%</span>
+                    </div>
+                </div>
+
+                <div class="forecast">
+                    <div class="day">WED</div>
+                    <div class="weather-icon">
+                    <img src="images/2682802_cloudy_day_fog_foggy_mist_icon-removebg-preview.png" alt="Foggy" width="30" height="30">
+                    </div>
+                    <div class="temperature">41°C</div>
+                    <div class="humidity-icon">
+                        <img src="images/2682807_drop_high_humidity_percentage_precipitation_icon-removebg-preview.png" alt="Humid icon" width="20" height="20">
+                        <span>32%</span>
+                    </div>
+                </div>
+
+                <div class="forecast">
+                    <div class="day">THU</div>
+                    <div class="weather-icon">
+                    <img src="images/2682826_bolt_light_moon_night_rain_icon-removebg-preview.png" alt="Thunder with light rains" width="30" height="30">
+                    </div>
+                    <div class="temperature">24°C</div>
+                    <div class="humidity-icon">
+                        <img src="images/2682807_drop_high_humidity_percentage_precipitation_icon-removebg-preview.png" alt="Humid icon" width="20" height="20">
+                        <span>68%</span>
+                    </div>
+                </div>
+
+                <div class="forecast">
+                    <div class="day">FRI</div>
+                    <div class="weather-icon">
+                    <img src="images/2682802_cloudy_day_fog_foggy_mist_icon-removebg-preview.png" alt="Fooggy" width="30" height="30">
+                    </div>
+                    <div class="temperature">36°c</div>
+                    <div class="humidity-icon">
+                        <img src="images/2682807_drop_high_humidity_percentage_precipitation_icon-removebg-preview.png" alt="Humid icon" width="20" height="20">
+                        <span>38%</span>
+                    </div>
+                </div>
+                
             </div>
         </section>
         
-        <h2 id="spotlights">Spotlights</h2>
+       
         <div class="sections-container">
+            <h2 id="spotlights">Spotlights</h2>
             
             <div class="ad-container">
                 
@@ -90,9 +151,28 @@
         
     </main>
     <footer>
-        <p>This project is under the WDD230 Course.</p>
-        <p>&copy; <span id="currentYear">  Batsirai Makombe | WDD230 - Winter 2024 | Lusaka, Zambia</span></p>
-        <p><span id="lastModified"></span></p>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3><u>Contact Information</u></h3>
+                        <p>Company Name: Lusaka Chamber of Commerce<br>
+                           Address: Box 2537 Independence Avenue, Lusaka, Zambia<br>
+                           Phone: 0211775426<br>
+                           Email: info@lskcc.org</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3><u>Additional Information</u></h3>
+                        <p>Website developed for WDD230 Course Project<br></p>
+                        <p>&copy; <span id="currentYear">  Batsirai Makombe | WDD230 - Winter 2024 | Lusaka, Zambia</span></p>
+                        <p><span id="lastModified"></span></p>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        
     </footer>
     <script src="../chamber/scripts/chamberhp.js"></script>
     <script src="scripts/getDates.js"></script>
