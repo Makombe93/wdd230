@@ -22,6 +22,11 @@
         color: #000080;
         position: relative;
     }
+
+    .logo-container {
+        display: flex;
+        align-items: center;
+    }
     
     .logo-container img{
         width: 80px;
@@ -30,7 +35,7 @@
     }
     
     .header-content span{
-        font-size: 5rem;
+        font-size: 2rem;
         margin-left: 10px;
         text-shadow: 2px 2px 4px #000;
     }
