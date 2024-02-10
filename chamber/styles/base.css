@@ -14,7 +14,7 @@ body{
 }
 
 .header-content span{
-    font-size: 0.8rem;
+    font-size: 2rem;
     text-shadow: 2px 2px 4px #000;
 }
 
@@ -308,12 +308,12 @@ footer{
 }
 
 .page-visits{
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: bold;
     color: orangered;
     border: 3px dotted navy;
     text-align: center;
-    padding-top: 80px;
+  
 }
 
 .image-column {
