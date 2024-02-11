@@ -1,0 +1,52 @@
+:root{
+    --border: 2px solid indigo;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table{
+    margin: 80px auto;
+    box-shadow: 0 0 15px black;
+   border-collapse: collapse;
+   width: 600px;
+   height: 400px;
+}
+caption{
+    padding: 15px;
+    caption-side: bottom;
+    color: grey;
+    font-size: 25px;
+}
+
+thead tr:first-child{
+    background-color: indigo;
+    color: white;
+    font-size: 2rem;
+
+}th[scope="colgroup"]{
+    padding: 40px;
+}
+
+th[scope="col"]{
+    background-color: blueviolet;
+    color: white;
+    padding: 20px;
+}
+
+th[scope="col-1"]{
+    background-color: indigo;
+   
+}
+
+td{
+    text-align: center;
+    color: indigo;
+    border: var(--border);
+    
+}
+
+th{
+    border: var(--border);
+}
