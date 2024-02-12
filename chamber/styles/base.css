@@ -126,25 +126,31 @@ nav{
 
 }
 
+.chamber-main{
+    display: flex;
+    flex-direction: column;
+}
+
 
 #events-heading{
     text-align: center;
     color: navy;
-    margin-top: 100px;
+    margin-top: 50px;
+    border-top: 2px solid navy;
 }
 
 .events-container{
     width: 80%;
     text-align: center;
-    margin-left: 30px;
     color: navy;
-    margin-bottom: 30px;
+   
 }
 
 .current-events-container{
     display:flex;
     flex-direction: column;
     width: 100%;
+    margin-bottom: 30px;
     padding: 20px;
     border: 1px solid rgb(124, 252, 0, 0.7);
     border-radius: 10px;
@@ -165,14 +171,15 @@ h2{
     background-color: #f0f0f0;
     color: white;
     padding: 20px;
-    margin-top: 150px;
+    margin-top: 50px;
     background-image: url('../images/weather.webp'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
-    width: 35%;
-    height: 300px;
-    float: right;
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 50px;
     
 }
 
@@ -202,6 +209,7 @@ footer{
     color: black;
     font-weight: bold;
     height: 230px;
+    margin-top: 50px;
 }
 
 .sections-container {
@@ -211,16 +219,22 @@ footer{
    
 }
 
+.spotlight-container{
+    border-top: 2px solid navy;
+
+}
+
 .ad-container {
     
     border: transparent; 
     border-radius: 20px;
     padding: 30px; 
-    margin: 50px; 
     margin-top: 30px;
     box-shadow: 5px 5px 9px rgb(255, 69, 0, 0.6);
     height: auto;
     width: 80%;
+    color: navy;
+    text-align: center;
 }
 
 #spotlights{

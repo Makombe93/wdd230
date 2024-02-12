@@ -105,6 +105,32 @@
         margin-left: 100px;
     }
 
+    .weather-card {
+        display:inline-block;
+        justify-content: space-between;
+        background-color: #f0f0f0;
+        color: white;
+        padding: 20px;
+        margin-top: 150px;
+        background-image: url('../images/weather.webp'); 
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        width: 50%;
+        height: 300px;
+        margin-left: 250px;
+        
+        
+    }
+
+    .spotlights{
+        font-size: 1.5rem;
+    }
+
+    .forecast{
+        margin: 20px;
+    }
+
     .header-content{
         margin-left: 10px;
     }
@@ -167,10 +193,10 @@
     }
     
     .ads{
-        border: 3px solid navy;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         width: 100%;
-        margin-left: 25px;
-        margin-top: 10px;
+        margin: 30px;
     }
 
     .demographics, .statistics, .page-visits{
