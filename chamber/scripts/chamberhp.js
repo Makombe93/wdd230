@@ -32,3 +32,11 @@ document.addEventListener("DOMContentLoaded", function() {
     localStorage.setItem("lastVisit", Date.now());
 });
 
+
+
+ var currentDate = new Date();
+
+ var formattedDate = currentDate.toISOString();
+
+
+ document.getElementById("timestamp").value = formattedDate;

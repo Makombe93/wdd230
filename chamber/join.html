@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber of Commerce Home Page">
+    <meta name="author" content="Batsirai Makombe">
+    <title>Lusaka Chamber of Commerce</title>
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/chambericon.ico">
+    <meta property="og:title" content="Batsirai Makombe - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://en.wikipedia.org/wiki/Lusaka#/media/File:Downtown_Lusaka.JPG">
+    <meta property="og:url" content="https://makombe93.github.io/wdd230/">
+</head>
+<body>
+    <header class="header-content">
+       <div class="logo-container">
+        <img src="images/logo.webp" alt="Lusaka Chamber of Commerce logo">
+        <span class="chamber-name">Lusaka Chamber of Commerce</span>
+       </div>
+        
+    </header>
+    <nav>
+        <div>
+            <button class="menu"></button>
+        </div>
+        <ul class="navmenu">
+            <li><a href="../chamber/index.html">Home</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="../chamber/discover.html">Discover</a></li>
+            <li><a href="#">Join Us</a></li>
+        </ul>
+    </nav>
+    <main >
+        <section class="join-form">
+            <h1 class="join-heading">Membership Application Form</h1>
+            <form action="thankyou.html" method="get">
+                <fieldset class="appli-info">
+                    <legend>Applicant Information</legend>
+                    <label class="info">First Name* <input type="text" name="fname" id="name" required></label>
+                    <label class="info">Last Name* <input type="text" name="lname" id="surname" required></label>
+                    <label class="info">Title/Position <input type="text" id="position" name="position" pattern="[a-zA-Z\s\-]{7,}"></label>
+                    <label class="info">Email* <input type="email" name="email" id="email" placeholder="someone@gmail.com" required></label>
+                    <label class="info">Mobile Phone Number*<input type="telephone" name="phonenumber" id="phonenumber" required></label>
+                    <label class="info">Name of Business/Organization*<input type="text" name="busname" id="busname" required></label>
+        
+                </fieldset>
+        
+                <fieldset class="mem">
+                    <legend>Membership  Level</legend>
+                    <label class="mem-level"><input type="checkbox" name="np" value="yes">NP Membership is for non profit organizations and there is no fee</label>
+                    <label class="mem-level"><input type="checkbox" name="bronze" value="yes">Bronze Membership</label>
+                    <label class="mem-level"><input type="checkbox" name="bronze" value="yes">Silver Membership</label>
+                    <label class="mem-level"><input type="checkbox" name="gold" value="yes">Gold Membership</label>
+        
+                </fieldset>
+                <fieldset>
+                    <legend>Business/ Organization's Description </legend>
+                    <label><textarea name="bus-description" id="bus-description" cols="1" rows="1"></textarea> </label>
+        
+                </fieldset>
+        
+                <input type="hidden" id="timestamp" name="timestamp" value="">
+    
+                <input type="submit" value="Apply Now" class="submitBtn">
+                
+    
+            </form>
+        </section>
+       
+        <div>
+            <h1 class="mem-heading">Membership Benefits</h1>
+            <section class="membership-benefits">
+            
+                <div class="benefits">
+                    <h3>NP Membership</h3>
+                    <p>No Fee required</p>
+            
+                    <ol>
+                        <li>Access to basic events</li>
+                        <li>Quarterly newsletter subscription</li>
+                    </ol>
+                </div>
+    
+                <div class="benefits">
+                    <h3>Bronze Membership</h3>
+                    <p>$200/year</p>
+                    
+                    <ol>
+                        <li>Quarterly newsletter subscription</li>
+                        <li>Access to all events</li>
+                        <li>Priority listing in Chamber directory</li>
+                        <li>Discounts on Chamber services</li>
+                    </ol>
+                </div>
+    
+                <div class="benefits">
+                    <h3>Silver Membership</h3>
+                    <p>$400/year</p>
+                    
+                    <ol>
+                        <li>Access to all events</li>
+                        <li>Priority listing in Chamber directory</li>
+                        <li>Discounts on Chamber services</li>
+                        <li>Exclusive networking events</li>
+                        <li>Featured listing on Chamber website</li>
+                        <li>Access to premium resources</li>
+                    </ol>
+                </div>
+    
+    
+                <div class="benefits">
+                    <h3>Gold Membership</h3>
+                    <p>$600/year</p>
+                    
+                    <ol>
+                        <li>Exclusive networking events</li>
+                        <li>Featured listing on Chamber website</li>
+                        <li>Access to premium resources</li>
+                        <li>Personalized business assistance</li>
+                        <li>Customized promotional opportunities</li>
+                        <li>Invitations to executive-level events</li>
+                    </ol>
+                </div>
+            
+            
+            </section>
+        
+        </div>
+       
+
+       
+    </main>
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3><u>Contact Information</u></h3>
+                        <p>Company Name: Lusaka Chamber of Commerce<br>
+                           Address: Box 2537 Independence Avenue, Lusaka, Zambia<br>
+                           Phone: 0211775426<br>
+                           Email: info@lskcc.org</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3><u>Additional Information</u></h3>
+                        <p>Website developed for WDD230 Course Project<br></p>
+                        <p>&copy; <span id="currentYear">  Batsirai Makombe | WDD230 - Winter 2024 | Lusaka, Zambia</span></p>
+                        <p><span id="lastModified"></span></p>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        
+    </footer>
+    <script src="../chamber/scripts/chamberhp.js"></script>
+    <script src="scripts/getDates.js"></script>
+    <script src="../chamber/scripts/weather.js"></script>
+</body>
+</html>
+
+  

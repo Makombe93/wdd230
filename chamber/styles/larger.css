@@ -218,6 +218,39 @@
         text-align: center;
        
     }
+
+    .join-form{
+        display: block;
+        margin: 0;
+    }
+
+    .membership-benefits {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        border-left: 2px solid navy;
+        
+    }
+
+    .benefits {
+        width: 100%;
+        margin: 15px;
+        padding: 15%;
+       
+    }
+
+    .thankyou-message{
+        display: block;
+    }
+
+    .thank-you{
+        text-align: center;
+        color: navy;
+        font-size: 20px;
+
+    }
+
+   
 }
 
 
