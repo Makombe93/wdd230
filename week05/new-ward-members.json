@@ -1,0 +1,25 @@
+{
+    "family_name": "Lengwe",
+    "move_in_date": "2020-05-15",
+    "number_of_people": 3,
+    "visited_by_bishopric": true,
+    "family_members": [
+      {
+        "name": "Ronald Lengwe",
+        "gender": "Male",
+        "birthdate": "1992-12-14"
+      },
+      {
+        "name": "Batsirai Lengwe",
+        "gender": "Female",
+        "birthdate": "1993-11-22"
+      },
+      {
+        "name": "Arnold Lengwe",
+        "gender": "Male",
+        "birthdate": "2022-07-17"
+      }
+      
+    ]
+  }
+  
