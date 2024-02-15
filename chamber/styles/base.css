@@ -447,6 +447,7 @@ footer{
 .join-heading {
     text-align: center;
     color: navy;
+    font-size: 3rem;
 }
 
 fieldset{
@@ -512,9 +513,9 @@ textarea {
    
 }
 
-h1.mem-heading {
+h2.mem-heading {
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     color: navy;
     
 }
