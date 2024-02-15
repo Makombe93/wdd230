@@ -513,7 +513,7 @@ textarea {
    
 }
 
-h2.mem-heading {
+.mem-heading {
     text-align: center;
     font-size: 3rem;
     color: navy;
