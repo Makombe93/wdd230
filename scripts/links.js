@@ -11,7 +11,7 @@ async function getLinks() {
 }
 
 function displayLinks(weeks) {
-    const linksContainer = document.querySelector('.learning');
+    const linksContainer = document.getElementById('learning');
     weeks.forEach(week => {
         const weekElement = document.createElement('div');
         weekElement.classList.add('week');
