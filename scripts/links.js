@@ -11,7 +11,7 @@ async function getLinks() {
 }
 
 function displayLinks(weeks) {
-    const linksContainer = document.querySelector('activities-container');
+    const linksContainer = document.querySelector('.activities-container');
     weeks.forEach(week => {
         const weekElement = document.createElement('div');
         weekElement.classList.add('week');
