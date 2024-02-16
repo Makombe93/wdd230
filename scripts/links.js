@@ -3,17 +3,15 @@ const baseURL = "https://makombe93.github.io/wdd230/";
 const linksURL = "https://makombe93.github.io/wdd230/data/links.json";
 
 async function getLinks() {
-    try {
+   
         const response = await fetch(linksURL);
         const data = await response.json();
         displayLinks(data.weeks);
-    } catch (error) {
-        console.error('Error fetching links data:', error);
-    }
+   
 }
 
 function displayLinks(weeks) {
-    const linksContainer = document.getElementById('activity-links');
+    const linksContainer = document.querySelector('activities-container');
     weeks.forEach(week => {
         const weekElement = document.createElement('div');
         weekElement.classList.add('week');
