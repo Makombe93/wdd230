@@ -219,6 +219,26 @@ iframe{
     font-size: 15px;
 }
 
+#learning div{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+#learning li{
+    display: inline-block;
+}
+
+#learning li:not(:last-child)::after {
+    content: " | ";
+    margin-right: 5px; 
+}
+
+#learning h3::after {
+    content: ": ";
+    margin-right: 10px;
+}
+
 
 
 

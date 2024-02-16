@@ -70,7 +70,7 @@
         },
         {
           "url":"week04/index.html",
-          "title":"Index"
+          "title":"Form"
         }
       ]
     },
@@ -91,7 +91,7 @@
         },
         {
           "url":"week05/weather.html",
-          "title":"OpenWeatherMap API Test"
+          "title":"OpenWeatherMap API "
         }
       ]
     }
