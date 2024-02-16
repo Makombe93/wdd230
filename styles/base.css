@@ -97,6 +97,7 @@ footer {
     margin: 30px;
 }
 
+
 h2 {
     background-color: #3498db;
     margin-bottom: 10px;
@@ -180,8 +181,9 @@ img{
 
 .overlay {
     position: absolute;
-    top: 10%;
-    left: 250px;
+    opacity: 0.7;
+    top: 20%;
+    left: 220px;
     transform: translate(-50%, -50%);
     color: #3498db;
     text-shadow: 5px 3px 3px navy;
@@ -189,6 +191,8 @@ img{
     background-color: rgb(255, 255, 255, 0.7);
     backdrop-filter: blur(20px);
     font-family: cursive;
+    width: 400px;
+    padding-bottom: 20px;
     
    
 }
@@ -197,6 +201,27 @@ iframe{
     width: 100%;
     
 }
+
+.page-visit-counter{
+    font-size: 15px;
+    margin-top: 15px;
+    padding: 5px;
+    border-top: 2px solid navy;
+}
+
+#weather-icon{
+    background-color: #3498db;
+    width: 30%;
+    height: auto;
+}
+
+#weather-desc, #current-temp{
+    font-size: 15px;
+}
+
+
+
+
 
 
 
