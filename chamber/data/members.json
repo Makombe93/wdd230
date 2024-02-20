@@ -1,0 +1,77 @@
+{
+    "members": [
+      {
+        "name": "Zesco Ltd",
+        "address": "Box 26543 off Great East Road, Lusaka",
+        "phone": "0211467386",
+        "website": "http://www.zesco.co.zm",
+        "image": "images/zesco.webp",
+        "membership_level": "Gold"
+        
+      },
+      {
+        "name": "Prudential Assurance",
+        "address": "2784 Thabo Mbeki Road, Lusaka",
+        "phone": "0211736598",
+        "website": "http://www.prudential.co.zm",
+        "image": "images/prudential.webp",
+        "membership_level": "Silver"
+        
+      },
+      {
+        "name": "NAPSA",
+        "address": "Box 21675 Levy Junction, Church Road, Lusaka",
+        "phone": "0211863999",
+        "website": "http://www.napsa.co.zm",
+        "image": "images/napsa.webp",
+        "membership_level": "Gold"
+      
+      },
+      {
+        "name": "Liquid Technologies",
+        "address": "Elunda 2 Addis Ababa Round About, Rhodespark, Lusaka",
+        "phone": "0211 374 600",
+        "website": "http://www.zm.liquidhome.tech",
+        "image": "images/liquid.webp",
+        "membership_level": "Silver"
+        
+      },
+      {
+        "name": "Natsave",
+        "address": "Stand 7863Cairo Road, Lusaka",
+        "phone": "0211836555",
+        "website": "http://www.natsave.co.zm",
+        "image": "images/natsave.webp",
+        "membership_level": "Gold"
+        
+      },
+      {
+        "name": "ZANACO",
+        "address": "PO Box 33611 Cairo Road, Lusaka",
+        "phone": "0211785497",
+        "website": "http://www.zanaco.co.zm",
+        "image": "images/zanacobank.webp",
+        "membership_level": "Silver"
+        
+      },
+      {
+        "name": "ZICA",
+        "address": "Plot No. 2472/a Thabo Mbeki Road, Lusaka",
+        "phone": "0211033323",
+        "website": "http://www.zica.co.zm",
+        "image": "images/zica.webp",
+        "membership_level": "Gold"
+        
+      },
+      {
+        "name": "Style Me",
+        "address": "52 Buluwe Street, Woodslands, Lusaka",
+        "phone": "0211437790",
+        "website": "http://www.stylemezambia.org",
+        "image": "company2.jpg",
+        "membership_level": "Silver",
+        "other_information": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }
+    ]
+  }
+  

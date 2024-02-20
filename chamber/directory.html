@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber of Commerce Directory Page">
+    <meta name="author" content="Batsirai Makombe">
+    <title>Lusaka Chamber of Commerce Directory Page</title>
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/chambericon.ico">
+    <meta property="og:title" content="Batsirai Makombe - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://en.wikipedia.org/wiki/Lusaka#/media/File:Downtown_Lusaka.JPG">
+    <meta property="og:url" content="https://makombe93.github.io/wdd230/">
+</head>
+<body>
+    <header class="header-content">
+       <div class="logo-container">
+        <img src="images/logo.webp" alt="Lusaka Chamber of Commerce logo">
+        <span class="chamber-name">Lusaka Chamber of Commerce</span>
+       </div>
+        
+    </header>
+    <nav>
+        <div>
+            <button class="menu"></button>
+        </div>
+        <ul class="navmenu">
+            <li><a href="../chamber/index.html">Home</a></li>
+            <li><a href="../chamber/discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="../chamber/join.html">Join Us</a></li>
+        </ul>
+    </nav>
+    <main >
+        <div class="directory-container">
+            <!-- Content generated from members.json -->
+        </div>
+        
+    </main>
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3><u>Contact Information</u></h3>
+                        <p>Company Name: Lusaka Chamber of Commerce<br>
+                           Address: Box 2537 Independence Avenue, Lusaka, Zambia<br>
+                           Phone: 0211775426<br>
+                           Email: info@lskcc.org</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3><u>Additional Information</u></h3>
+                        <p>Website developed for WDD230 Course Project<br></p>
+                        <p>&copy; <span id="currentYear">  Batsirai Makombe | WDD230 - Winter 2024 | Lusaka, Zambia</span></p>
+                        <p><span id="lastModified"></span></p>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        
+    </footer>
+    <script src="../chamber/scripts/chamberhp.js"></script>
+    <script src="scripts/getDates.js"></script>
+    <script src="../chamber/scripts/directory.js"></script>
+</body>
+</html>
+
+  
