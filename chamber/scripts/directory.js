@@ -1,5 +1,5 @@
 const baseURL = "https://makombe93.github.io/wdd230/";
-const membersURL = "https://makombe93.github.io/wdd230/data/members.json";
+const membersURL = "https://makombe93.github.io/wdd230/chamber/data/members.json";
 
 async function getMembers() {
     try {
