@@ -15,7 +15,7 @@
         "phone": "0211736598",
         "website": "http://www.prudential.co.zm",
         "image": "images/prudential.webp",
-        "membership_level": "Silver"
+        "membership_level": "Bronze"
         
       },
       {
@@ -65,12 +65,11 @@
       },
       {
         "name": "Style Me",
-        "address": "52 Buluwe Street, Woodslands, Lusaka",
+        "address": "52 Buluwe Street, Woodlands, Lusaka",
         "phone": "0211437790",
         "website": "http://www.stylemezambia.org",
-        "image": "company2.jpg",
-        "membership_level": "Silver",
-        "other_information": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "image": "images/styleme.webp",
+        "membership_level": "NP"
       }
     ]
   }

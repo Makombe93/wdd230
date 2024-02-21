@@ -17,23 +17,29 @@ function displayMembers(members) {
         const memberCard = document.createElement('div');
         memberCard.classList.add('member-card');
 
+        
+        const image = document.createElement('img');
+        image.src = member.image;
+        image.alt = member.name;
+
         const name = document.createElement('h2');
-        name.textContent = member.name;
+        name.textContent = `${member.name}`;
+
 
         const address = document.createElement('p');
-        address.textContent = `Address: ${member.address}`;
+        address.textContent = `${member.address}`;
 
         const phone = document.createElement('p');
-        phone.textContent = `Phone: ${member.phone}`;
+        phone.textContent = ` ${member.phone}`;
 
         const website = document.createElement('p');
-        website.innerHTML = `Website: <a href="${member.website}" target="_blank">${member.website}</a>`;
+        website.innerHTML = `<a href="${member.website}" target="_blank">${member.website}</a>`;
 
         const membershipLevel = document.createElement('p');
         membershipLevel.textContent = `Membership Level: ${member.membership_level}`;
 
         // Appending elements to memberCard
-        memberCard.appendChild(name);
+        memberCard.appendChild(image);
         memberCard.appendChild(address);
         memberCard.appendChild(phone);
         memberCard.appendChild(website);
@@ -44,4 +50,26 @@ function displayMembers(members) {
     });
 }
 
-getMembers();
+
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    const directoryContainer = document.querySelector('.directory-container');
+    const gridViewButton = document.getElementById('grid-view-button');
+    const listViewButton = document.getElementById('list-view-button');
+
+    gridViewButton.addEventListener('click', function() {
+        directoryContainer.classList.add('grid-view');
+        directoryContainer.classList.remove('list-view');
+    });
+
+    listViewButton.addEventListener('click', function() {
+        directoryContainer.classList.add('list-view');
+        directoryContainer.classList.remove('grid-view');
+    });
+
+    // Fetch and display members
+    getMembers();
+});
+
