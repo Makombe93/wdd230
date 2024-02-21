@@ -17,14 +17,12 @@ function displayMembers(members) {
         const memberCard = document.createElement('div');
         memberCard.classList.add('member-card');
 
+        const name = document.createElement('h2');
+        name.textContent = `${member.name}`;
         
         const image = document.createElement('img');
         image.src = member.image;
         image.alt = member.name;
-
-        const name = document.createElement('h2');
-        name.textContent = `${member.name}`;
-
 
         const address = document.createElement('p');
         address.textContent = `${member.address}`;
@@ -39,6 +37,7 @@ function displayMembers(members) {
         membershipLevel.textContent = `Membership Level: ${member.membership_level}`;
 
         // Appending elements to memberCard
+        memberCard.appendChild(name);
         memberCard.appendChild(image);
         memberCard.appendChild(address);
         memberCard.appendChild(phone);

@@ -294,6 +294,7 @@
 
     .list-view .member-card img{
         display: none;
+        visibility: hidden;
     }
     
     .list-view {
