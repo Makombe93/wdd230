@@ -132,6 +132,8 @@ nav{
 .chamber-main{
     display: flex;
     flex-direction: column;
+    width: 90%;
+    margin-left: 20px;
 }
 
 
@@ -254,6 +256,10 @@ footer{
     width: 80%;
     color: navy;
     text-align: center;
+}
+.ad-container img{
+    width: 90%;
+    height: auto;
 }
 
 #spotlights{
