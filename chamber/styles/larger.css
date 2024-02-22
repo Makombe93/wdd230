@@ -87,6 +87,15 @@
         color: navy;
     }
 
+    
+    .cta-n-weather {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 20px;
+    }
+   
+    
+
     .current-events-container{
         padding: 20px;
         border: 2px solid #7cfc00;
@@ -95,14 +104,18 @@
         margin-bottom: 50px;
         color: navy;
         height: auto;
-        margin-left: 50px;
+       
     }
 
     .events-container{
         display: flex;
         flex-direction: row;
         gap: 30px;
-        margin-left: 100px;
+        
+    }
+
+    .event-info{
+        margin-top: 30px;
     }
 
     .weather-card {
@@ -111,14 +124,14 @@
         background-color: #f0f0f0;
         color: white;
         padding: 20px;
-        margin-top: 150px;
         background-image: url('../images/weather.webp'); 
         background-size: cover; 
         background-position: center; 
         background-repeat: no-repeat; 
-        width: 50%;
-        height: 300px;
-        margin-left: 250px;
+        width: 80%;
+        height: 400px;
+        margin: 60px;
+        font-size: 2rem;
         
         
     }
@@ -130,6 +143,7 @@
     .forecast{
         margin: 20px;
     }
+
 
     .header-content{
         margin-left: 10px;

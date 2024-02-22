@@ -7,7 +7,7 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: rgb(246, 249, 250);
     color: navy;
-    margin: 0 50px;
+    margin: 0 ;
 }
 
 .header-content {
@@ -71,17 +71,22 @@ footer {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 #learning{
     
     box-shadow: 8px 8px 8px 10px gray;
+    width: 90%;
+    margin-bottom: 20px;
 }
 
 #info{
     font-size: 20px;
     box-shadow: 8px 8px 8px 10px gray;
     text-align: center;
+    width: 90%;
+    margin-bottom: 40px;
 }
 
 #weather-info{
@@ -94,7 +99,7 @@ footer {
     border-radius: 8px;
     padding: 10px;
     width: 40%;
-    margin: 30px;
+    
 }
 
 

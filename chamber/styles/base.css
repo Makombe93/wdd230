@@ -103,17 +103,18 @@ nav{
 }
 
 .cta-container {
-    max-width: 800px; 
-    margin: 0 auto;
+    max-width: 90%; 
+    margin:20px;
     margin-top: 30px;
     box-shadow: 0 4px 8px orangered; 
     padding: 10px; 
+    
 }
 
 .cta {
     color: navy;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 3rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow: 1px 1px 2px orangered;
 }
@@ -123,6 +124,8 @@ nav{
     background-color: rgb(124, 252, 0, 0.7);
     border: none;
     color: navy;
+    margin-bottom: 10px;
+    padding: 10px;
 
 }
 
@@ -132,18 +135,26 @@ nav{
 }
 
 
+
+
 #events-heading{
     text-align: center;
     color: navy;
     margin-top: 50px;
     border-top: 2px solid navy;
+    font-size: 2rem;
 }
 
 .events-container{
-    width: 80%;
+    width: 100%;
     text-align: center;
     color: navy;
    
+}
+
+.event-info{
+    font-size: 20px;
+    
 }
 
 .current-events-container{
@@ -155,6 +166,10 @@ nav{
     border: 1px solid rgb(124, 252, 0, 0.7);
     border-radius: 10px;
 
+}
+
+p strong{
+    margin: 5px 0;
 }
 
 h2{
@@ -183,12 +198,16 @@ h2{
     
 }
 
+#weather-icon{
+    background-color: rgb(245, 240, 240, 0.5);
+    margin-bottom: 20px;
+}
 .weather-card h2{
     margin-top: 10px;
 }
 
 .forecast-container {
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     margin-top: 60px;
@@ -241,6 +260,7 @@ footer{
     text-align: center;
     color: navy;
     font-weight: bold;
+    font-size: 3rem;
 }
 
 
@@ -596,12 +616,16 @@ textarea {
 
 #grid-view-button, #list-view-button{
     font-weight: bold;
+    font-size: 1.5rem;
     height: 50px;
     border: none;
     margin-left: 20px;
     color: navy;
     background-color: rgb(124, 252, 0, 0.4);
+    
 }
+
+
 
 
 

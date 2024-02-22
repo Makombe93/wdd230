@@ -20,6 +20,7 @@
     #learning{
         flex: 2;
         box-shadow: 8px 8px 8px 10px gray;
+        margin: 30px;
     }
     
     #info{
@@ -27,6 +28,7 @@
         font-size: 20px;
         box-shadow: 8px 8px 8px 10px gray;
         text-align: center;
+        margin: 30px;
     }
 
     .dark-mode-btn{
